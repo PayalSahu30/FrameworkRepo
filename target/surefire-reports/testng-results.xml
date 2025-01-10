@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-10T10:09:32 IST" name="Suite" finished-at="2025-01-10T10:09:32 IST" duration-ms="81">
+    <groups>
+      <group name="regressionTest">
+        <method signature="ContactTest.modifyContact()[pri:0, instance:contactPackage.ContactTest@3c407114]" name="modifyContact" class="contactPackage.ContactTest"/>
+        <method signature="orgTest.modifyOrg()[pri:0, instance:orgPackage.orgTest@68999068]" name="modifyOrg" class="orgPackage.orgTest"/>
+      </group> <!-- regressionTest -->
+    </groups>
+    <test started-at="2025-01-10T10:09:32 IST" name="Test" finished-at="2025-01-10T10:09:32 IST" duration-ms="81">
+      <class name="contactPackage.ContactTest">
+        <test-method signature="modifyContact()[pri:0, instance:contactPackage.ContactTest@3c407114]" started-at="2025-01-10T10:09:32 IST" name="modifyContact" finished-at="2025-01-10T10:09:32 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyContact -->
+      </class> <!-- contactPackage.ContactTest -->
+      <class name="orgPackage.orgTest">
+        <test-method signature="modifyOrg()[pri:0, instance:orgPackage.orgTest@68999068]" started-at="2025-01-10T10:09:32 IST" name="modifyOrg" finished-at="2025-01-10T10:09:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyOrg -->
+      </class> <!-- orgPackage.orgTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
