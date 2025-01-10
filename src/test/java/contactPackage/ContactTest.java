@@ -26,4 +26,9 @@ public void modifyContact()
 {
 	System.out.println("==executing ModifyContact==");
 }
+@Test
+public void deleteContact()
+{
+	System.out.println("==executing DeleteContact==");
+}
 }

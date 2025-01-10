@@ -15,4 +15,10 @@ public class orgTest
 	{
 		System.out.println("==executing ModifyOrg==");
 	}
+	
+	@Test
+	public void deleteOrg()
+	{
+		System.out.println("==executing DeleteOrg==");
+	}
 }
